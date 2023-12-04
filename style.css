@@ -203,4 +203,10 @@ body {
     height: 400px;
     width: 300px;
   }
+
+  .collapsible {
+    min-width: 350px;
+    overflow: hidden;
+    font-weight: 500;
+  }
 }
