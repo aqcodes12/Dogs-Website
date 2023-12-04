@@ -16,7 +16,7 @@ body {
 .resources {
   display: flex;
   height: 200px;
-  width: 100px;
+  width: 100%;
   justify-content: center;
   align-items: center;
 }
@@ -198,5 +198,9 @@ body {
 
   .hyperlinks {
     list-style-type: none;
+  }
+  .map iframe {
+    height: 400px;
+    width: 300px;
   }
 }
