@@ -134,6 +134,7 @@ body {
 }
 
 .content .header p {
+  font-size: 20px;
   margin-top: 15px;
   margin-bottom: 10px;
   text-align: center;
@@ -161,6 +162,20 @@ body {
 
 .hyperlinks {
   list-style-type: none;
+  transition: all color 0.5s ease;
+}
+
+.hyperlinks a {
+  font-size: 20px;
+  color: #000;
+  transition: color 0.3s ease, text-decoration 0.3s ease, opacity 0.3s ease;
+  text-decoration: none;
+}
+
+.hyperlinks a:hover {
+  color: #141e46;
+  /* text-decoration: underline;  */
+  opacity: 0.8;
 }
 
 /* tesitimonial */
