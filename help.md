@@ -1,4 +1,1 @@
-w-50 h-50 p-3 text-center
-ratio ratio-16x9
-
-class="text-white bg-dark"
+<!--?xml version="1.0" standalone="no"?-->              <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">                    <defs>                         <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">                            <stop id="stop1" stop-color="rgba(248, 117, 55, 1)" offset="0%"></stop>                            <stop id="stop2" stop-color="rgba(251, 168, 31, 1)" offset="100%"></stop>                        </linearGradient>                    </defs>                <path fill="url(#sw-gradient)" d="M16.6,-19.3C23.8,-13.8,33.6,-10.7,34.1,-6.2C34.7,-1.7,26.1,4.2,19.8,8.1C13.6,12.1,9.7,14.1,4.9,17.6C0.1,21,-5.6,26,-11.2,26C-16.7,26,-22.2,21,-28.2,14.4C-34.3,7.9,-40.9,-0.3,-38.5,-5.6C-36.1,-10.9,-24.8,-13.5,-16.9,-18.9C-9,-24.3,-4.5,-32.5,0.1,-32.6C4.7,-32.8,9.4,-24.8,16.6,-19.3Z" width="100%" height="100%" transform="translate(50 50)" stroke-width="0" style="transition: all 0.3s ease 0s;"></path>              </svg>
