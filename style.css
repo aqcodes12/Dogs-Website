@@ -287,6 +287,17 @@ body {
   right: -60px;
   top: -30px;
 }
+
+.footer-links a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #ffc107 !important;
+}
+
 @media only screen and (max-width: 991px) {
   .owl-nav {
     display: none;
