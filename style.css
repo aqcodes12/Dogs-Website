@@ -242,14 +242,12 @@ body {
   height: auto;
   border-radius: 50%;
 }
-.socials {
-  margin-top: 30px;
+.review-date {
+  color: #a9a9a9;
+  font-size: 14px;
+  margin-top: 5px;
 }
-.socials i {
-  margin: 0 10px;
-  color: #0a69ed;
-  font-size: 18px;
-}
+
 #testimonial_area .owl-nav {
   position: absolute;
   top: 50%;
