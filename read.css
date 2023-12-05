@@ -1,0 +1,41 @@
+.services-area {
+  padding-top: 12%;
+}
+.single-box {
+  background: #f8f8ff;
+  color: #00aaff;
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.single-box button {
+  background: rgb(243, 201, 107);
+  background: linear-gradient(
+    90deg,
+    rgba(243, 201, 107, 1) 8%,
+    rgba(87, 122, 248, 1) 97%
+  );
+  border: none;
+  padding: 10px 30px;
+  display: inline-block;
+  margin-top: 15px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.single-box a {
+  color: rgb(0, 0, 0);
+  position: relative;
+  height: 100%;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.single-box a:hover {
+  color: #45474b;
+}
+.single-box:hover .overlay-text {
+  opacity: 0;
+  transform: scale(2);
+  -webkit-transform: scale(2);
+}

@@ -169,6 +169,20 @@ body {
   padding: 10% 0;
   background: #a0c3d2;
 }
+
+.testimonial_heading {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial_heading h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: Lalezar, sans-serif;
+}
+
 .box-area {
   padding: 30px;
   position: relative;
@@ -194,6 +208,18 @@ body {
   margin: 0 0 10px;
   font-weight: 400;
 }
+
+.box-area .stars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-area .fa-star {
+  margin-right: 5px; /* Adjust the margin as needed */
+  color: #ffe234;
+}
+
 .box-area .content {
   color: #262626;
 }
