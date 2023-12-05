@@ -167,7 +167,7 @@ body {
 
 #testimonial_area {
   padding: 10% 0;
-  background: #c4dfdf;
+  background: #a0c3d2;
 }
 .box-area {
   padding: 30px;
@@ -224,13 +224,11 @@ body {
   color: #0a69ed;
   font-size: 18px;
 }
-
 #testimonial_area .owl-nav {
   position: absolute;
-  bottom: 20px; /* Adjust the distance from the bottom as needed */
+  top: 50%;
   width: 100%;
 }
-
 #testimonial_area .owl-prev,
 #testimonial_area .owl-next {
   width: 40px;
@@ -242,15 +240,14 @@ body {
   background: #fff;
   position: absolute;
 }
-
 #testimonial_area .owl-prev {
-  left: 40%; /* Adjust the distance from the left as needed */
+  left: -60px;
+  top: -30px;
 }
-
 #testimonial_area .owl-next {
-  right: 40%; /* Adjust the distance from the right as needed */
+  right: -60px;
+  top: -30px;
 }
-
 @media only screen and (max-width: 991px) {
   .owl-nav {
     display: none;
