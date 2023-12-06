@@ -197,6 +197,13 @@ body {
   font-size: 40px;
   font-family: Lalezar, sans-serif;
 }
+.box-area .content {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  margin: 0; /* Remove default margin for better spacing */
+}
 
 .box-area {
   padding: 30px;
@@ -206,6 +213,7 @@ body {
   color: #000;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 40px 0;
+  border-radius: 10px;
 }
 .box-area h5 {
   font-size: 16px;
@@ -373,4 +381,40 @@ body {
     overflow: hidden;
     font-weight: 500;
   }
+}
+.chkb {
+  display: none;
+}
+
+.content .additional-content {
+  display: none;
+}
+
+.chkb:checked ~ .content .additional-content {
+  display: block;
+}
+
+.chkb:checked ~ .content .initial-content {
+  display: none;
+}
+
+/* Add this CSS to style the button */
+.review-button {
+  width: 80px;
+  height: 30px;
+  font-size: 0.7rem;
+  position: absolute;
+  margin-top: 10px;
+  bottom: 10px;
+  left: 10px;
+
+  background-color: #4285f4; /* Google blue color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.review-button:hover {
+  background-color: #357ae8; /* Darker shade on hover */
 }
